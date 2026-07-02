@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>63.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
+    <decisions>
+        <name>Rating_is_Cold</name>
+        <label>Rating is Cold</label>
+        <locationX>281</locationX>
+        <locationY>323</locationY>
+        <defaultConnector>
+            <targetReference>Rating_is_Warm</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Date_is_1_to_10</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Date__c</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>$Record.Date__c</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>cold</targetReference>
+            </connector>
+            <doesRequireRecordChangedToMeetCriteria>true</doesRequireRecordChangedToMeetCriteria>
+            <label>Date is 1 to 10</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Rating_is_Hot</name>
+        <label>Rating is Hot</label>
+        <locationX>710</locationX>
+        <locationY>539</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Date_is_20_to30</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Date__c</leftValueReference>
+                <operator>EqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Hot</targetReference>
+            </connector>
+            <label>Date is 20 to30</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Rating_is_Warm</name>
+        <label>Rating is Warm</label>
+        <locationX>512</locationX>
+        <locationY>431</locationY>
+        <defaultConnector>
+            <targetReference>Rating_is_Hot</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Date_is10_to_20</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Record.Date__c</leftValueReference>
+                <operator>EqualTo</operator>
+            </conditions>
+            <connector>
+                <targetReference>Warm</targetReference>
+            </connector>
+            <label>Date is10 to 20</label>
+        </rules>
+    </decisions>
+    <environments>Default</environments>
+    <formulas>
+        <name>Date</name>
+        <dataType>Date</dataType>
+        <expression>between 1 to 20</expression>
+    </formulas>
+    <formulas>
+        <name>Date1</name>
+        <dataType>Date</dataType>
+        <expression>between 10 to20</expression>
+    </formulas>
+    <formulas>
+        <name>Date2</name>
+        <dataType>Date</dataType>
+        <expression>between 20 to 30</expression>
+    </formulas>
+    <formulas>
+        <name>datefelid</name>
+        <dataType>Number</dataType>
+        <expression>IF(
+  {!Date} &lt;= 1 &gt;=10,
+  &quot;Cold&quot;,
+  IF(
+    {!Date} &lt;=10  &gt;= 20,
+    &quot;Warm&quot;,
+    IF(
+      {!Date} &lt;=20 &gt;= 30
+      &quot;Hot&quot;,
+      &quot;Out of Range&quot;
+    )
+  )
+)</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>costom {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>costom</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>cold</name>
+        <label>cold</label>
+        <locationX>50</locationX>
+        <locationY>431</locationY>
+        <inputAssignments>
+            <field>Rating__c</field>
+            <value>
+                <stringValue>Cold</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Hot</name>
+        <label>Hot</label>
+        <locationX>578</locationX>
+        <locationY>647</locationY>
+        <inputAssignments>
+            <field>Rating__c</field>
+            <value>
+                <stringValue>Hot</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Warm</name>
+        <label>Warm</label>
+        <locationX>314</locationX>
+        <locationY>539</locationY>
+        <inputAssignments>
+            <field>Rating__c</field>
+            <value>
+                <stringValue>Warm</stringValue>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>155</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Rating_is_Cold</targetReference>
+        </connector>
+        <object>Person__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>InvalidDraft</status>
+</Flow>

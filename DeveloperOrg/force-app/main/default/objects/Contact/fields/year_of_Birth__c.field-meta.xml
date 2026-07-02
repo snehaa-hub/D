@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>year_of_Birth__c</fullName>
+    <label>year of Birth</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2003</fullName>
+                <default>false</default>
+                <label>2003</label>
+            </value>
+            <value>
+                <fullName>2002</fullName>
+                <default>false</default>
+                <label>2002</label>
+            </value>
+            <value>
+                <fullName>2001</fullName>
+                <default>false</default>
+                <label>2001</label>
+            </value>
+            <value>
+                <fullName>2000</fullName>
+                <default>false</default>
+                <label>2000</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

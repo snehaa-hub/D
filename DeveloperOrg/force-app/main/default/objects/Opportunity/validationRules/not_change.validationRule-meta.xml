@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>not_change</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISPICKVAL( StageName , &quot;Negotiation/Review&quot;), 
+ ISPICKVAL( PRIORVALUE( StageName) ,&quot;Prospecting&quot;) 
+ )</errorConditionFormula>
+    <errorMessage>TOP TO FELID</errorMessage>
+</ValidationRule>

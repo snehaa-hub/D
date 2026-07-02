@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calculated_Deal_Amount_must_not_be_edita</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISCHANGED(Calculated_Deal_Amount__c),
+    NOT(ISNEW())
+)</errorConditionFormula>
+    <errorMessage>Calculated Deal Amount must not be editable</errorMessage>
+</ValidationRule>

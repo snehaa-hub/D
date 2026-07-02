@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validation_Rule</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+  ISPICKVAL (Region__c,&quot;APAC&quot;), 
+OR(
+ ISPICKVAL( Rating , &quot;Hot&quot;) , AnnualRevenue &gt; 500000))</errorConditionFormula>
+    <errorDisplayField>Region__c</errorDisplayField>
+    <errorMessage>Validation_Rule</errorMessage>
+</ValidationRule>
