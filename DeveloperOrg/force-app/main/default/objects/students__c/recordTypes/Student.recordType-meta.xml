@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Student</fullName>
+    <active>true</active>
+    <label>Student</label>
+    <picklistValues>
+        <picklist>subject__c</picklist>
+        <values>
+            <fullName>Bioligy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>English</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maths</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tamil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>chemistry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>physics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>science</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

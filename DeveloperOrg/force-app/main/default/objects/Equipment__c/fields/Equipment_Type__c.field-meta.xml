@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipment_Type__c</fullName>
+    <label>Equipment Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Office Equipment</fullName>
+                <default>false</default>
+                <label>Office Equipment</label>
+            </value>
+            <value>
+                <fullName>IT Equipment</fullName>
+                <default>false</default>
+                <label>IT Equipment</label>
+            </value>
+            <value>
+                <fullName>Construction Equipment</fullName>
+                <default>false</default>
+                <label>Construction Equipment</label>
+            </value>
+            <value>
+                <fullName>Manufacturing Equipment</fullName>
+                <default>false</default>
+                <label>Manufacturing Equipment</label>
+            </value>
+            <value>
+                <fullName>Medical Equipment</fullName>
+                <default>false</default>
+                <label>Medical Equipment</label>
+            </value>
+            <value>
+                <fullName>Laboratory Equipment</fullName>
+                <default>false</default>
+                <label>Laboratory Equipment</label>
+            </value>
+            <value>
+                <fullName>Agricultural Equipment</fullName>
+                <default>false</default>
+                <label>Agricultural Equipment</label>
+            </value>
+            <value>
+                <fullName>Safety Equipment</fullName>
+                <default>false</default>
+                <label>Safety Equipment</label>
+            </value>
+            <value>
+                <fullName>Sports &amp; Fitness Equipment</fullName>
+                <default>false</default>
+                <label>Sports &amp; Fitness Equipment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

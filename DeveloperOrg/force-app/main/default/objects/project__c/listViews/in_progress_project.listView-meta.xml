@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>in_progress_project</fullName>
+    <columns>NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>status__c</field>
+        <operation>equals</operation>
+        <value>In Progres</value>
+    </filters>
+    <label>in progress project</label>
+</ListView>

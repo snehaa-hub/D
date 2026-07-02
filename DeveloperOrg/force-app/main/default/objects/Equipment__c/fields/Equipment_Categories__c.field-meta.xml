@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipment_Categories__c</fullName>
+    <label>Equipment Categories</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Equipment_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Computers</fullName>
+                <default>false</default>
+                <label>Computers</label>
+            </value>
+            <value>
+                <fullName>printers</fullName>
+                <default>false</default>
+                <label>printers</label>
+            </value>
+            <value>
+                <fullName>phones</fullName>
+                <default>false</default>
+                <label>phones</label>
+            </value>
+            <value>
+                <fullName>projectors</fullName>
+                <default>false</default>
+                <label>projectors</label>
+            </value>
+            <value>
+                <fullName>Servers</fullName>
+                <default>false</default>
+                <label>Servers</label>
+            </value>
+            <value>
+                <fullName>routers</fullName>
+                <default>false</default>
+                <label>routers</label>
+            </value>
+            <value>
+                <fullName>storage devices</fullName>
+                <default>false</default>
+                <label>storage devices</label>
+            </value>
+            <value>
+                <fullName>Excavators</fullName>
+                <default>false</default>
+                <label>Excavators</label>
+            </value>
+            <value>
+                <fullName>bulldozers</fullName>
+                <default>false</default>
+                <label>bulldozers</label>
+            </value>
+            <value>
+                <fullName>cranes</fullName>
+                <default>false</default>
+                <label>cranes</label>
+            </value>
+            <value>
+                <fullName>concrete mixers</fullName>
+                <default>false</default>
+                <label>concrete mixers</label>
+            </value>
+            <value>
+                <fullName>Assembly machines</fullName>
+                <default>false</default>
+                <label>Assembly machines</label>
+            </value>
+            <value>
+                <fullName>conveyor belts</fullName>
+                <default>false</default>
+                <label>conveyor belts</label>
+            </value>
+            <value>
+                <fullName>welding tools</fullName>
+                <default>false</default>
+                <label>welding tools</label>
+            </value>
+            <value>
+                <fullName>X-ray machines</fullName>
+                <default>false</default>
+                <label>X-ray machines</label>
+            </value>
+            <value>
+                <fullName>ventilators</fullName>
+                <default>false</default>
+                <label>ventilators</label>
+            </value>
+            <value>
+                <fullName>surgical instruments</fullName>
+                <default>false</default>
+                <label>surgical instruments</label>
+            </value>
+            <value>
+                <fullName>Microscopes</fullName>
+                <default>false</default>
+                <label>Microscopes</label>
+            </value>
+            <value>
+                <fullName>centrifuges</fullName>
+                <default>false</default>
+                <label>centrifuges</label>
+            </value>
+            <value>
+                <fullName>pipettes</fullName>
+                <default>false</default>
+                <label>pipettes</label>
+            </value>
+            <value>
+                <fullName>spectrophotometers</fullName>
+                <default>false</default>
+                <label>spectrophotometers</label>
+            </value>
+            <value>
+                <fullName>Tractors</fullName>
+                <default>false</default>
+                <label>Tractors</label>
+            </value>
+            <value>
+                <fullName>harvesters</fullName>
+                <default>false</default>
+                <label>harvesters</label>
+            </value>
+            <value>
+                <fullName>irrigation systems</fullName>
+                <default>false</default>
+                <label>irrigation systems</label>
+            </value>
+            <value>
+                <fullName>Helmets</fullName>
+                <default>false</default>
+                <label>Helmets</label>
+            </value>
+            <value>
+                <fullName>gloves</fullName>
+                <default>false</default>
+                <label>gloves</label>
+            </value>
+            <value>
+                <fullName>fire extinguishers</fullName>
+                <default>false</default>
+                <label>fire extinguishers</label>
+            </value>
+            <value>
+                <fullName>harnesses</fullName>
+                <default>false</default>
+                <label>harnesses</label>
+            </value>
+            <value>
+                <fullName>Treadmills</fullName>
+                <default>false</default>
+                <label>Treadmills</label>
+            </value>
+            <value>
+                <fullName>weights</fullName>
+                <default>false</default>
+                <label>weights</label>
+            </value>
+            <value>
+                <fullName>mats</fullName>
+                <default>false</default>
+                <label>mats</label>
+            </value>
+            <value>
+                <fullName>protective gear</fullName>
+                <default>false</default>
+                <label>protective gear</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Office Equipment</controllingFieldValue>
+            <valueName>Computers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Office Equipment</controllingFieldValue>
+            <valueName>printers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Office Equipment</controllingFieldValue>
+            <valueName>phones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Office Equipment</controllingFieldValue>
+            <valueName>projectors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Equipment</controllingFieldValue>
+            <valueName>Servers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Equipment</controllingFieldValue>
+            <valueName>routers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IT Equipment</controllingFieldValue>
+            <valueName>storage devices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Equipment</controllingFieldValue>
+            <valueName>Excavators</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Equipment</controllingFieldValue>
+            <valueName>bulldozers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Equipment</controllingFieldValue>
+            <valueName>cranes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Construction Equipment</controllingFieldValue>
+            <valueName>concrete mixers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Equipment</controllingFieldValue>
+            <valueName>Assembly machines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Equipment</controllingFieldValue>
+            <valueName>conveyor belts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Manufacturing Equipment</controllingFieldValue>
+            <valueName>welding tools</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Equipment</controllingFieldValue>
+            <valueName>X-ray machines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Equipment</controllingFieldValue>
+            <valueName>ventilators</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Medical Equipment</controllingFieldValue>
+            <controllingFieldValue>Laboratory Equipment</controllingFieldValue>
+            <valueName>surgical instruments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laboratory Equipment</controllingFieldValue>
+            <valueName>Microscopes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laboratory Equipment</controllingFieldValue>
+            <valueName>centrifuges</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laboratory Equipment</controllingFieldValue>
+            <valueName>pipettes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Laboratory Equipment</controllingFieldValue>
+            <valueName>spectrophotometers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agricultural Equipment</controllingFieldValue>
+            <valueName>Tractors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agricultural Equipment</controllingFieldValue>
+            <valueName>harvesters</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agricultural Equipment</controllingFieldValue>
+            <valueName>irrigation systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Equipment</controllingFieldValue>
+            <valueName>Helmets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Equipment</controllingFieldValue>
+            <valueName>gloves</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Equipment</controllingFieldValue>
+            <valueName>fire extinguishers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Safety Equipment</controllingFieldValue>
+            <valueName>harnesses</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports &amp; Fitness Equipment</controllingFieldValue>
+            <valueName>Treadmills</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports &amp; Fitness Equipment</controllingFieldValue>
+            <valueName>weights</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports &amp; Fitness Equipment</controllingFieldValue>
+            <valueName>mats</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sports &amp; Fitness Equipment</controllingFieldValue>
+            <valueName>protective gear</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

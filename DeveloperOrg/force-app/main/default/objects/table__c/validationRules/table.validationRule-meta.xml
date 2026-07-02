@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>table</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(phone__c )</errorConditionFormula>
+    <errorDisplayField>phone__c</errorDisplayField>
+    <errorMessage>valid phone number</errorMessage>
+</ValidationRule>

@@ -3,15 +3,7 @@
 
     <!-- Objects (includes Validation Rules, Fields, Record Types, etc.) -->
 <types>
-<members>Account</members>
-<members>Contact</members>
-<members>Lead</members>
-<members>Opportunity</members>
-<members>Case</members>
-<members>Campaign</members>
-<members>Task</members>
-<members>Event</members>
-<members>User</members>
+<members>*</members>
 <name>CustomObject</name>
 </types>
     <types>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>District__c</fullName>
+    <label>District</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>state__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hydrabad</fullName>
+                <default>false</default>
+                <label>Hydrabad</label>
+            </value>
+            <value>
+                <fullName>Kammam</fullName>
+                <default>false</default>
+                <label>Kammam</label>
+            </value>
+            <value>
+                <fullName>chennai</fullName>
+                <default>false</default>
+                <label>chennai</label>
+            </value>
+            <value>
+                <fullName>Madurai</fullName>
+                <default>false</default>
+                <label>Madurai</label>
+            </value>
+            <value>
+                <fullName>tirupati</fullName>
+                <default>false</default>
+                <label>tirupati</label>
+            </value>
+            <value>
+                <fullName>chittoor</fullName>
+                <default>false</default>
+                <label>chittoor</label>
+            </value>
+            <value>
+                <fullName>Banglore</fullName>
+                <default>false</default>
+                <label>Banglore</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Tamil Nadu</controllingFieldValue>
+            <valueName>chennai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tamil Nadu</controllingFieldValue>
+            <valueName>Madurai</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Karanataka</controllingFieldValue>
+            <valueName>Banglore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andhra Pradesh</controllingFieldValue>
+            <valueName>tirupati</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Andhra Pradesh</controllingFieldValue>
+            <valueName>chittoor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Telangana</controllingFieldValue>
+            <valueName>Hydrabad</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

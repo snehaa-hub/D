@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Course__c</fullName>
+    <label>Course</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Department__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Physics</fullName>
+                <default>false</default>
+                <label>Physics</label>
+            </value>
+            <value>
+                <fullName>Chemistry</fullName>
+                <default>false</default>
+                <label>Chemistry</label>
+            </value>
+            <value>
+                <fullName>Biology</fullName>
+                <default>false</default>
+                <label>Biology</label>
+            </value>
+            <value>
+                <fullName>Financial Accounting</fullName>
+                <default>false</default>
+                <label>Financial Accounting</label>
+            </value>
+            <value>
+                <fullName>Business Economics</fullName>
+                <default>false</default>
+                <label>Business Economics</label>
+            </value>
+            <value>
+                <fullName>Cost Accounting</fullName>
+                <default>false</default>
+                <label>Cost Accounting</label>
+            </value>
+            <value>
+                <fullName>Criminal Law</fullName>
+                <default>false</default>
+                <label>Criminal Law</label>
+            </value>
+            <value>
+                <fullName>Contract Law</fullName>
+                <default>false</default>
+                <label>Contract Law</label>
+            </value>
+            <value>
+                <fullName>Family Law</fullName>
+                <default>false</default>
+                <label>Family Law</label>
+            </value>
+            <value>
+                <fullName>Teaching Methods</fullName>
+                <default>false</default>
+                <label>Teaching Methods</label>
+            </value>
+            <value>
+                <fullName>Classroom Management</fullName>
+                <default>false</default>
+                <label>Classroom Management</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <valueName>Physics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <valueName>Chemistry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Science</controllingFieldValue>
+            <valueName>Biology</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commerce</controllingFieldValue>
+            <valueName>Financial Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commerce</controllingFieldValue>
+            <valueName>Business Economics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commerce</controllingFieldValue>
+            <valueName>Cost Accounting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law</controllingFieldValue>
+            <valueName>Criminal Law</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law</controllingFieldValue>
+            <valueName>Contract Law</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Law</controllingFieldValue>
+            <valueName>Family Law</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Teaching Methods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Education</controllingFieldValue>
+            <valueName>Classroom Management</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

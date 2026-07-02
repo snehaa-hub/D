@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>phohe</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK(customer_phone_number__c )||
+ LEN(customer_phone_number__c) &lt;&gt; 10</errorConditionFormula>
+    <errorMessage>There is 10 number for phone</errorMessage>
+</ValidationRule>

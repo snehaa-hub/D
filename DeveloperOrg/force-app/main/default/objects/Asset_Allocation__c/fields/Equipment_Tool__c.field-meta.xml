@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Equipment_Tool__c</fullName>
+    <label>Equipment Tool</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Equipment__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hammer</fullName>
+                <default>false</default>
+                <label>Hammer</label>
+            </value>
+            <value>
+                <fullName>Screwdriver</fullName>
+                <default>false</default>
+                <label>Screwdriver</label>
+            </value>
+            <value>
+                <fullName>Wrench</fullName>
+                <default>false</default>
+                <label>Wrench</label>
+            </value>
+            <value>
+                <fullName>Pliers</fullName>
+                <default>false</default>
+                <label>Pliers</label>
+            </value>
+            <value>
+                <fullName>Chisel</fullName>
+                <default>false</default>
+                <label>Chisel</label>
+            </value>
+            <value>
+                <fullName>Hacksaw</fullName>
+                <default>false</default>
+                <label>Hacksaw</label>
+            </value>
+            <value>
+                <fullName>Mallet</fullName>
+                <default>false</default>
+                <label>Mallet</label>
+            </value>
+            <value>
+                <fullName>Drill machine</fullName>
+                <default>false</default>
+                <label>Drill machine</label>
+            </value>
+            <value>
+                <fullName>Angle grinder</fullName>
+                <default>false</default>
+                <label>Angle grinder</label>
+            </value>
+            <value>
+                <fullName>Circular saw</fullName>
+                <default>false</default>
+                <label>Circular saw</label>
+            </value>
+            <value>
+                <fullName>Heat gun</fullName>
+                <default>false</default>
+                <label>Heat gun</label>
+            </value>
+            <value>
+                <fullName>Welding machine</fullName>
+                <default>false</default>
+                <label>Welding machine</label>
+            </value>
+            <value>
+                <fullName>Electric sander</fullName>
+                <default>false</default>
+                <label>Electric sander</label>
+            </value>
+            <value>
+                <fullName>Excavator</fullName>
+                <default>false</default>
+                <label>Excavator</label>
+            </value>
+            <value>
+                <fullName>Bulldozer</fullName>
+                <default>false</default>
+                <label>Bulldozer</label>
+            </value>
+            <value>
+                <fullName>Crane</fullName>
+                <default>false</default>
+                <label>Crane</label>
+            </value>
+            <value>
+                <fullName>Forklift</fullName>
+                <default>false</default>
+                <label>Forklift</label>
+            </value>
+            <value>
+                <fullName>Concrete mixer</fullName>
+                <default>false</default>
+                <label>Concrete mixer</label>
+            </value>
+            <value>
+                <fullName>Backhoe loader</fullName>
+                <default>false</default>
+                <label>Backhoe loader</label>
+            </value>
+            <value>
+                <fullName>Measuring tape</fullName>
+                <default>false</default>
+                <label>Measuring tape</label>
+            </value>
+            <value>
+                <fullName>Spirit level</fullName>
+                <default>false</default>
+                <label>Spirit level</label>
+            </value>
+            <value>
+                <fullName>Clamp</fullName>
+                <default>false</default>
+                <label>Clamp</label>
+            </value>
+            <value>
+                <fullName>Grease gun</fullName>
+                <default>false</default>
+                <label>Grease gun</label>
+            </value>
+            <value>
+                <fullName>Torque wrench</fullName>
+                <default>false</default>
+                <label>Torque wrench</label>
+            </value>
+            <value>
+                <fullName>Pipe cutter</fullName>
+                <default>false</default>
+                <label>Pipe cutter</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Hand Tools</controllingFieldValue>
+            <valueName>Hammer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hand Tools</controllingFieldValue>
+            <valueName>Screwdriver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hand Tools</controllingFieldValue>
+            <valueName>Wrench</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hand Tools</controllingFieldValue>
+            <valueName>Pliers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hand Tools</controllingFieldValue>
+            <valueName>Chisel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hand Tools</controllingFieldValue>
+            <valueName>Hacksaw</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hand Tools</controllingFieldValue>
+            <valueName>Mallet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <valueName>Drill machine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <valueName>Angle grinder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <valueName>Circular saw</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <valueName>Heat gun</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <valueName>Welding machine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Power Tools</controllingFieldValue>
+            <valueName>Electric sander</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heavy Equipment</controllingFieldValue>
+            <valueName>Excavator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heavy Equipment</controllingFieldValue>
+            <valueName>Bulldozer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heavy Equipment</controllingFieldValue>
+            <valueName>Crane</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heavy Equipment</controllingFieldValue>
+            <valueName>Forklift</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heavy Equipment</controllingFieldValue>
+            <valueName>Concrete mixer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Heavy Equipment</controllingFieldValue>
+            <valueName>Backhoe loader</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Specialized Equipment</controllingFieldValue>
+            <valueName>Measuring tape</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Specialized Equipment</controllingFieldValue>
+            <valueName>Spirit level</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Specialized Equipment</controllingFieldValue>
+            <valueName>Clamp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Specialized Equipment</controllingFieldValue>
+            <valueName>Grease gun</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Specialized Equipment</controllingFieldValue>
+            <valueName>Torque wrench</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Specialized Equipment</controllingFieldValue>
+            <valueName>Pipe cutter</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>
